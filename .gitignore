@@ -1,0 +1,6 @@
+# Ejecutables
+*.exe
+
+# Opcional
+*.log
+.vscode/
