@@ -9,7 +9,7 @@ Requisitos
 
 Cómo compilar (resumen)
 - Crear el binario: go build -o hosts-editor.exe ./cmd/hosts_gui
-go build -ldflags="-H windowsgui" -o hosts-editor.exe ./cmd/hosts_gui
+- go build -ldflags="-H windowsgui" -o hosts-editor.exe ./cmd/hosts_gui
 
 - Incluir manifest: copiar hosts-editor.exe.manifest junto al ejecutable o usar un recurso RC para incrustarlo
 - Ejecutar: ejecutar hosts-editor.exe; Windows mostrará el prompt de UAC para elevación (deberás aceptar)
